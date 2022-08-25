@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar Fragment</title>
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-dark" th:fragment="navbar" >
+    <div class="container-fluid">
+      <a class="navbar-brand" th:href="@{/tarefas}">TreinaWeb Tarefas</a>
+    </div>
+  </nav>
+</body>
+</html>
